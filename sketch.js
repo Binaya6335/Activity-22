@@ -24,11 +24,11 @@ function setup() {
 	roof = Bodies.rectangle(600,50,1200,20,roof_options);
     World.add(world,roof);
 
-	bob1 = new bob(300, 300, "royalblue");
-	bob2 = new bob(360,300, "purple");
-	bob3 = new bob(420, 300, "royalblue");
-	bob4 = new bob(480, 300, "purple");
-	bob5 = new bob(540, 300, "royalblue");
+	Bob1 = new bob(300, 300, "royalblue");
+	Bob2 = new bob(360,300, "purple");
+	Bob3 = new bob(420, 300, "royalblue");
+	Bob4 = new bob(480, 300, "purple");
+	Bob5 = new bob(540, 300, "royalblue");
 	rope1 = new Sling(bob1.body, {x:300, y:50}, "purple");
 	rope2 = new Sling(bob2.body,{x:360, y:50}, "royalblue");
 	rope3 = new Sling(bob3.body,{x:420, y:50}, "purple");
